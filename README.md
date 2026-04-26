@@ -9,6 +9,7 @@ Evil Eye is a units-based tower defense roguelite game developed in C++ using th
 
 ### Linux Dependencies
 To build the project on Linux, you will need to install the following dependencies for Raylib:
+
 ```bash
 sudo apt-get update
 sudo apt-get install -y build-essential git cmake libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev xorg-dev
@@ -19,6 +20,7 @@ sudo apt-get install -y build-essential git cmake libxrandr-dev libxinerama-dev 
 This project uses CMake and `FetchContent` to automatically download and build Raylib, ensuring simple cross-platform builds.
 
 1. Create a build directory and run CMake:
+2. 
    ```bash
    mkdir build
    cd build
@@ -26,23 +28,28 @@ This project uses CMake and `FetchContent` to automatically download and build R
    ```
 
 2. Compile the project:
+3. 
    ```bash
    make -j$(nproc)
    ```
 
 ## Running the Game
 
+
 After a successful build, you can run the game from the `build` directory:
 
 **Windows/Linux:**
+
 ```bash
 ./build/EvilEye
 ```
 
 **macOS:**
+
 ```bash
 open build/EvilEye.app
 ```
+
 *(Note: Running `./build/EvilEye` directly from terminal on Mac might cause the window to hide or fail to launch properly. Always use `open build/EvilEye.app`)*
 
 ## How to Play
