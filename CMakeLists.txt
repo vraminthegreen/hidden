@@ -33,3 +33,7 @@ add_executable(EvilEye
 )
 
 target_link_libraries(EvilEye PRIVATE raylib)
+
+if (APPLE)
+    set_target_properties(EvilEye PROPERTIES MACOSX_BUNDLE TRUE)
+endif()

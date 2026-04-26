@@ -34,7 +34,7 @@ This project uses CMake and `FetchContent` to automatically download and build R
 
 After a successful build, you can run the game executable from the `build` directory:
 ```bash
-./build/EvilEye
+./build/EvilEye (lub `open build/EvilEye.app` na macOS)
 ```
 
 ## How to Play
