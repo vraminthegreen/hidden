@@ -2,7 +2,7 @@
 
 #include <raylib.h>
 
-const int TILE_SIZE = 64;
+const int TILE_SIZE = 48;
 const int MAP_WIDTH = 24;
 const int MAP_HEIGHT = 14;
 
